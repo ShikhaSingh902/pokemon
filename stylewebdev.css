@@ -1,0 +1,46 @@
+body{
+    font-family: "Times New Roman", Times, serif;
+    background-color: rgb(250, 221, 226);
+    color: black;
+    
+}
+header{
+    background-color: rgb(227, 243, 249);
+    padding: 20px;
+    text-align: center;
+    color: black;
+    font-family: 'Pacifico' , cursive;
+}
+
+section{
+    margin: 20px;
+    padding: 20px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    
+    
+
+}
+ button{
+    background-color: grey;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-family: 'roboto' , sans-serif;
+ }
+
+button:hover{
+    background-color: black;
+}
+
+#photoGallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+img{
+    max-width: 100px;
+    max-height: 100px;
+}
